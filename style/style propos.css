@@ -1,0 +1,126 @@
+header{
+/*Toutes la barre du haut avec le logo + la recher + l'add + profil et liste*/
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	height: 20%;
+	width: 100%;
+	position: fixed;
+}
+body{
+	margin-top: 20%;
+	color: black;
+}
+.btn-under:hover{
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+.contour{
+	text-align: center;
+	border: 1px gray solid;
+	width: 60%;
+}
+.all{
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	position: absolute;
+	bottom: 20%;
+	left: 25%;
+}
+.logo{
+	margin-left: 2%;
+	width: 8%;
+	height: auto;
+}
+.btn-all:hover{
+	text-decoration: underline;
+}
+body{
+	justify-content: center;
+}
+.titlede{
+	background-color: black;
+	width: 40%;
+	height: 10%;
+	text-align: center;
+	padding-top: 1%;
+	color: white;
+	position: absolute;
+	left: 15%;
+	top: 25%;
+	font-size: 40px;
+	font-family: Verdana;
+}
+.sited{
+	position: absolute;
+	left: 15%;
+	top: 45%;
+	text-shadow: 5px 5px 15px silver;
+
+}
+.einsta{
+	color: purple;
+	position: absolute;
+	left: 15%;
+	top: 53%;
+}
+.disc{
+	text-shadow: 5px 5px 5px silver;
+	width: 35%;
+	height: auto;
+	position: absolute;
+	left: 14%;
+	top: 52%;
+}
+.btn-text{
+/*mettre le text au centre de recherche et du bouton add*/
+	text-align: center; 
+}
+.btn-trait{
+ 	border-right: 1px white solid;
+}
+.Res{
+	width: 8%;
+	position: absolute;
+	left: 35%;
+	bottom: 15%;
+	color: white;
+	background-color: black;
+}
+.sne{
+	width: 8%;
+	text-align: center;
+	position: absolute;
+	left: 48%;
+	bottom: 15%;
+	color: white;
+	background-color: black;
+}
+.pro{
+	border-radius: 4px;
+	width: 8%;
+	border: 1px gray solid;
+	text-align: center;
+	position: absolute;
+	left: 63%;
+	bottom: 15%;
+	color: white;
+}
+.headertitle{
+	color: white;
+	position: absolute;
+	left: 44%; 
+	top: 10%;
+	font-size: 30px;
+}
+.logorond{
+	position: absolute;
+	right: 25%;
+	top:27%;
+	width: 10%;
+	height: auto;
+}

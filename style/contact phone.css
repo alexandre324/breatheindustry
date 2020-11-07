@@ -1,0 +1,182 @@
+@media screen and (max-width: 420px){
+header{
+/*Toutes la barre du haut avec le logo + la recher + l'add + profil et liste*/
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	height: 12%;
+	width: 100%;
+	position: fixed;
+}
+body{
+	margin-top: 20%;
+	color: black;
+}
+.bloci{
+	margin-top: 3%;
+	margin-left: 4%;
+	width: 20%;
+	height: auto;
+}
+.test{
+	margin-top: -20%;
+	margin-left: 30%;
+	color: black;
+	font-family: impact;
+	font-size: 40px;
+}
+.contactinsta{
+	border: 1px solid silver;
+	position: absolute;
+	top: 25%;
+	box-shadow: 5px 5px 10px silver;
+	width: 80%;
+	height: 80px;
+	border-radius: 30px;
+	margin-left: 5%;
+}
+.contactvinted{
+	border: 1px solid silver;
+	margin-top: 1%;
+	background-color: white;
+	position: absolute;
+	top: 37%;
+	box-shadow: 5px 5px 10px silver;
+	width: 80%;
+	height: 80px;
+	border-radius: 30px;
+	margin-left: 5%;
+}
+.contactgmail{
+	border: 1px solid silver;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	box-shadow: 5px 5px 10px silver;
+	width: 80%;
+	height: 80px;
+	border-radius: 30px;
+	margin-left: 5%;
+}
+.contactgmail:hover{
+		box-shadow: 5px 10px 20px black;
+}
+.contactinsta:hover{
+	box-shadow: 5px 10px 20px black;
+}
+.contactvinted:hover{
+		box-shadow: 5px 10px 20px black;
+
+}
+.btn-under:hover{
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+.contour{
+	text-align: center;
+	border: 1px gray solid;
+	width: 60%;
+}
+.all{
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	position: absolute;
+	bottom: 20%;
+	left: 25%;
+}
+.logo{
+	margin-left: 7%;
+	width: 15%;
+	height: auto;
+}
+.btn-all:hover{
+	text-decoration: underline;
+}
+body{
+	justify-content: center;
+}
+.titlede{
+	background-color: black;
+	width: 40%;
+	height: 10%;
+	text-align: center;
+	padding-top: 1%;
+	color: white;
+	position: absolute;
+	left: 15%;
+	top: 25%;
+	font-size: 40px;
+	font-family: Verdana;
+}
+.sited{
+	position: absolute;
+	left: 15%;
+	top: 45%;
+	text-shadow: 5px 5px 15px silver;
+
+}
+.einsta{
+	color: purple;
+	position: absolute;
+	left: 15%;
+	top: 53%;
+}
+.disc{
+	text-shadow: 5px 5px 5px silver;
+	width: 35%;
+	height: auto;
+	position: absolute;
+	left: 14%;
+	top: 52%;
+}
+.btn-text{
+/*mettre le text au centre de recherche et du bouton add*/
+	text-align: center; 
+}
+
+.Res{
+	border-radius: 4px;
+	height: 15%;
+	border: 1px gray solid;
+	text-align: center;
+	width: 20%;
+	position: absolute;
+	left: 7%;
+	top: 70%;
+	color: white;
+	background-color: black;
+}
+.sne{
+	width: 33%;
+	position: absolute;
+	left: 35%;
+	top: 70%;
+	color: white;
+	background-color: black;
+}
+.pro{
+	width: 20%;
+	position: absolute;
+	left: 75%;
+	top: 71%;
+	color: white;
+}
+.headertitle{
+	color: white;
+	position: absolute;
+	left: 25%; 
+	top: -15px;
+	font-size: 30px;
+}
+.logorond{
+	position: absolute;
+	right: 25%;
+	top:27%;
+	width: 10%;
+	height: auto;
+}
+}
